@@ -1,6 +1,6 @@
 //c language
 /*02) Lab or Assignment work> */
-/*04) Assignment 4.c*/
+/*04) Assignment 5.c*/
 //101
 //Assignment 4
 //done
