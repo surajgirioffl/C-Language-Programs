@@ -2,7 +2,7 @@
 /*02) Lab or Assignment work> */
 /*04) Assignment 5.c*/
 //101
-//Assignment 4
+//Assignment 5
 //done
 #include <stdio.h>
 #include <conio.h>
