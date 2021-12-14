@@ -185,11 +185,12 @@ void lcm(int p, int q)
 		greater1 = p;
 	else
 		greater1 = q;
+	int save_greater; //because in each iteration value get multiplied so it's need to save it
 	for (int i = 1; i > 0; i++)
 	{
 		if (greater1 % p == 0 && greater1 % q == 0)
 			break;
-		greater1 = greater1 * i;
+		greater1 = save_greater * i;
 	}
 	printf("\nLCM of %d and %d is %d", p, q, greater1);
 }
